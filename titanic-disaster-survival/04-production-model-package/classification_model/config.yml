@@ -37,12 +37,13 @@ C: 0.0005
 
 drop_features:
   - PassengerId
+  - Name
+  - Ticket
   
 categorical_vars_with_na_missing:
   - Sex
   - Cabin
   - Embarked
-  - Title
 
 categorical_vars_with_extraction:
   - Cabin
@@ -55,4 +56,3 @@ categorical_vars:
   - Sex
   - Cabin
   - Embarked
-  - Title
